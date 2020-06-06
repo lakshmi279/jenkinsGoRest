@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="4" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-06-05T23:09:12 IST" name="RegressionTestSuite" finished-at="2020-06-05T23:09:51 IST" duration-ms="39583">
+    <groups>
+      <group name="Regression">
+        <method signature="BasicApiTests.postUser()[pri:0, instance:com.gorest.apitests.BasicApiTests@76ed1b7c]" name="postUser" class="com.gorest.apitests.BasicApiTests"/>
+        <method signature="UITests.verifyFacebooklogin()[pri:0, instance:com.gorest.uitests.UITests@524d6d96]" name="verifyFacebooklogin" class="com.gorest.uitests.UITests"/>
+        <method signature="UITests.verrifySearchuser()[pri:0, instance:com.gorest.uitests.UITests@524d6d96]" name="verrifySearchuser" class="com.gorest.uitests.UITests"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test started-at="2020-06-05T23:09:12 IST" name="Test2" finished-at="2020-06-05T23:09:14 IST" duration-ms="2615">
+      <class name="com.gorest.apitests.BasicApiTests">
+        <test-method signature="postUser()[pri:0, instance:com.gorest.apitests.BasicApiTests@76ed1b7c]" started-at="2020-06-05T23:09:12 IST" name="postUser" finished-at="2020-06-05T23:09:14 IST" duration-ms="2590" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postUser -->
+      </class> <!-- com.gorest.apitests.BasicApiTests -->
+    </test> <!-- Test2 -->
+    <test started-at="2020-06-05T23:09:14 IST" name="Test3" finished-at="2020-06-05T23:09:51 IST" duration-ms="36945">
+      <class name="com.gorest.uitests.UITests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.gorest.uitests.UITests@524d6d96]" started-at="2020-06-05T23:09:14 IST" name="setup" finished-at="2020-06-05T23:09:20 IST" duration-ms="6169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyFacebooklogin()[pri:0, instance:com.gorest.uitests.UITests@524d6d96]" started-at="2020-06-05T23:09:20 IST" name="verifyFacebooklogin" finished-at="2020-06-05T23:09:49 IST" duration-ms="28242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFacebooklogin -->
+        <test-method signature="verrifySearchuser()[pri:0, instance:com.gorest.uitests.UITests@524d6d96]" started-at="2020-06-05T23:09:49 IST" name="verrifySearchuser" finished-at="2020-06-05T23:09:51 IST" depends-on-methods="com.gorest.uitests.UITests.verifyFacebooklogin" duration-ms="2532" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verrifySearchuser -->
+      </class> <!-- com.gorest.uitests.UITests -->
+    </test> <!-- Test3 -->
+  </suite> <!-- RegressionTestSuite -->
+</testng-results>

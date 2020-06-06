@@ -1,0 +1,4 @@
+com\gorest\api\gorestapis.class
+com\gorest\ui\UsersPage.class
+com\gorest\common\BaseClass.class
+com\gorest\ui\LoginPage.class
